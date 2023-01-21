@@ -1,8 +1,8 @@
 import {React} from "react";
 
 
-import {FaReact, FaPython, FaGithub, FaHtml5, FaLaravel, FaJava} from "react-icons/fa";
-import {SiFlutter, SiDart, SiHaskell, SiJavascript, SiCss3, SiPhp, SiPhpmyadmin, SiLatex, SiTailwindcss, SiMysql, SiPostgresql, SiSqlite, SiJupyter, SiSpringboot, SiCplusplus} from "react-icons/si";
+import {FaReact, FaPython, FaGithub, FaHtml5, FaLaravel, FaJava, FaVuejs} from "react-icons/fa";
+import {SiFlutter, SiDart, SiHaskell, SiJavascript, SiCss3, SiPhp, SiPhpmyadmin, SiLatex, SiTailwindcss, SiMysql, SiPostgresql, SiSqlite, SiJupyter, SiSpringboot, SiCplusplus, SiFastapi, SiApachesolr} from "react-icons/si";
 import {DiProlog} from "react-icons/di";
 
 const Skills = () => {
@@ -159,6 +159,27 @@ const Skills = () => {
       Icon: SiSpringboot,
       title: "Spring Boot",
       style: "shadow-blue-700",
+      expertise: "Intermediate"
+    },
+    {
+      id:23,
+      Icon: SiFastapi,
+      title: "Fastapi",
+      style: "shadow-purple-700",
+      expertise: "Expert"
+    },
+    {
+      id:24,
+      Icon: FaVuejs,
+      title: "Vue.js",
+      style: "shadow-green-700",
+      expertise: "Intermediate"
+    },
+    {
+      id:25,
+      Icon: SiApachesolr,
+      title: "Solr",
+      style: "shadow-yellow-700",
       expertise: "Intermediate"
     }
   ];
