@@ -1,26 +1,30 @@
 {
   "files": {
     "main.css": "/static/css/main.fca5d81e.css",
-    "main.js": "/static/js/main.3ab2db68.js",
+    "main.js": "/static/js/main.c016556e.js",
     "static/media/fish.gif": "/static/media/fish.a5c67d9e275adb4320f1.gif",
+    "static/media/checkers.png": "/static/media/checkers.7b461641222779988b36.png",
     "static/media/mancala.png": "/static/media/mancala.7d047bb99754e6d4e054.png",
+    "static/media/search.png": "/static/media/search.5b37ae78adeb995f436d.png",
     "static/media/simonvs.png": "/static/media/simonvs.e169274e3acd2a603edb.png",
     "static/media/talk.png": "/static/media/talk.e9ba217c49a864483401.png",
     "static/media/myhealthdiary.png": "/static/media/myhealthdiary.d207f05e2a86b76f6af0.png",
     "static/media/holo.png": "/static/media/holo.de7dc79bb6dd5ffa084f.png",
     "static/media/noodle.png": "/static/media/noodle.7843c442a286b87f3a3e.png",
+    "static/media/residu.png": "/static/media/residu.bb5740ed70e9184096d5.png",
     "static/media/about.png": "/static/media/about.86a2e34aa0a2e6fdea9e.png",
     "static/media/uptime2.png": "/static/media/uptime2.8dc0469eacc47c518ad2.png",
+    "static/media/twitter.png": "/static/media/twitter.54707c05abe763efc0b1.png",
     "static/media/tetris.png": "/static/media/tetris.d182a6c2e49e5eb8be29.png",
     "static/media/github.svg": "/static/media/github.11d53efe70d04c2c193ae093d4b0d083.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.1cdf6e0c833c06d7ddd00b97f74da743.svg",
     "static/media/envelope.svg": "/static/media/envelope.a634c3d5639f3fb5ce7d7fc9ab90beac.svg",
     "main.fca5d81e.css.map": "/static/css/main.fca5d81e.css.map",
-    "main.3ab2db68.js.map": "/static/js/main.3ab2db68.js.map"
+    "main.c016556e.js.map": "/static/js/main.c016556e.js.map"
   },
   "entrypoints": [
     "static/css/main.fca5d81e.css",
-    "static/js/main.3ab2db68.js"
+    "static/js/main.c016556e.js"
   ]
 }
