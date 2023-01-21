@@ -6,6 +6,10 @@ import mancala from "../assets/mancala.png";
 import uptime from "../assets/uptime2.png";
 import noodle from "../assets/noodle.png";
 import myhealthdiary from "../assets/myhealthdiary.png"
+import search from "../assets/search.png"
+import residu from "../assets/residu.png"
+import twitter from "../assets/twitter.png"
+import checkers from "../assets/checkers.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -43,7 +47,28 @@ const Portfolio = () => {
       id:7,
       src: uptime,
       description: "Components of a Mobile App made for University Students."
+    },
+    {
+      id:8,
+      src: search,
+      description: "Search Engine made with Solr, Vue and FastApi."
+    },
+    {
+      id:9,
+      src: residu,
+      description: "Website made for BUILTColab."
+    },
+    {
+      id:10,
+      src: twitter,
+      description: "Descentralized Twitter made with FastApi, Vue and Kademlia."
+    },
+    {
+      id:11,
+      src: checkers,
+      description: "Computer Graphic Project of a Checkers Game."
     }
+
   ];
 
   return (
