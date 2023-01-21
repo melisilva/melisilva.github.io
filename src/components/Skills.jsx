@@ -179,7 +179,7 @@ const Skills = () => {
       id:25,
       Icon: SiApachesolr,
       title: "Solr",
-      style: "shadow-yellow-700",
+      style: "shadow-yellow-600",
       expertise: "Intermediate"
     }
   ];
