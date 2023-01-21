@@ -24,9 +24,9 @@ const Portfolio = () => {
       description: "Multiplayer Tetris with other game modes."
     },
     {
-      id: 3,
-      src: fish,
-      description: "Computer Graphic Project of a Moving Fish."
+      id:3,
+      src: uptime,
+      description: "Components of a Mobile App made for University Students."
     },
     {
       id: 4,
@@ -44,9 +44,9 @@ const Portfolio = () => {
       description: "Website and Mobile App made for an Hospital."
     },
     {
-      id:7,
-      src: uptime,
-      description: "Components of a Mobile App made for University Students."
+      id: 7,
+      src: fish,
+      description: "Computer Graphic Project of a Moving Fish."
     },
     {
       id:8,
