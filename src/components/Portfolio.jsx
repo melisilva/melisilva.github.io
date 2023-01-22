@@ -56,7 +56,7 @@ const Portfolio = () => {
     {
       id:9,
       src: residu,
-      description: "Website made for BUILTColab."
+      description: "Platform made for a Research Services Company."
     },
     {
       id:10,
@@ -137,4 +137,4 @@ Fish
 Simon VS
 My Health Diary
 
-Need to take photo mancala*/}
+*/}
