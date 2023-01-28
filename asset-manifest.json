@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fca5d81e.css",
-    "main.js": "/static/js/main.c06becc3.js",
+    "main.js": "/static/js/main.24a608b6.js",
     "static/media/fish.gif": "/static/media/fish.a5c67d9e275adb4320f1.gif",
     "static/media/checkers.png": "/static/media/checkers.7b461641222779988b36.png",
     "static/media/mancala.png": "/static/media/mancala.7d047bb99754e6d4e054.png",
@@ -14,6 +14,7 @@
     "static/media/residu.png": "/static/media/residu.bb5740ed70e9184096d5.png",
     "static/media/about.png": "/static/media/about.86a2e34aa0a2e6fdea9e.png",
     "static/media/uptime2.png": "/static/media/uptime2.8dc0469eacc47c518ad2.png",
+    "static/media/joelbot.png": "/static/media/joelbot.465cc0f778f15d069fc1.png",
     "static/media/twitter.png": "/static/media/twitter.54707c05abe763efc0b1.png",
     "static/media/tetris.png": "/static/media/tetris.d182a6c2e49e5eb8be29.png",
     "static/media/github.svg": "/static/media/github.11d53efe70d04c2c193ae093d4b0d083.svg",
@@ -21,10 +22,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.1cdf6e0c833c06d7ddd00b97f74da743.svg",
     "static/media/envelope.svg": "/static/media/envelope.a634c3d5639f3fb5ce7d7fc9ab90beac.svg",
     "main.fca5d81e.css.map": "/static/css/main.fca5d81e.css.map",
-    "main.c06becc3.js.map": "/static/js/main.c06becc3.js.map"
+    "main.24a608b6.js.map": "/static/js/main.24a608b6.js.map"
   },
   "entrypoints": [
     "static/css/main.fca5d81e.css",
-    "static/js/main.c06becc3.js"
+    "static/js/main.24a608b6.js"
   ]
 }
