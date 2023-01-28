@@ -10,6 +10,7 @@ import search from "../assets/search.png"
 import residu from "../assets/residu.png"
 import twitter from "../assets/twitter.png"
 import checkers from "../assets/checkers.png"
+import joelbot from "../assets/joelbot.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -67,9 +68,16 @@ const Portfolio = () => {
       id:11,
       src: checkers,
       description: "Computer Graphic Project of a Checkers Game."
+    },
+    {
+      id:12,
+      src: joelbot,
+      description: "Twitter Bot made with Python."
     }
 
   ];
+
+
 
   return (
     <div
@@ -89,6 +97,13 @@ const Portfolio = () => {
             <div key={id}>
               {id==5? <a href="https://www.youtube.com/watch?v=CA3sB9_N2KE&t=2s">
               <img
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-105"
+              />
+              </a>:
+              id==12? <a href="https://twitter.com/joelquotesbot">
+                 <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
@@ -117,24 +132,3 @@ const Portfolio = () => {
 
 export default Portfolio;
 
-{/*
-Portfolio
-No photo:
-IART Working with Supervised Learning to deal with a data set - the data pertains to music statistics obtained from Spotify
-RC Serial Port File Transfer App
-AEDA bookshop
-BDAD data base
-SOPE client server
-PFL - prolog game
-CAL- parking lot
-IART- python game + machine learning
-
-
-Photo:
-Tetris
-Noodle
-Fish
-Simon VS
-My Health Diary
-
-*/}
