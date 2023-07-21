@@ -117,7 +117,15 @@ const Portfolio = () => {
                     className="rounded-md duration-200 hover:scale-105 max-h-48 max-w-full"
                   />
                 </a>
-              ) : (
+              ) : id === 13 ? (
+                <a href="https://youtu.be/yKfJuab8DX4">
+                  <img
+                    src={src}
+                    alt=""
+                    className="rounded-md duration-200 hover:scale-105 max-h-48 max-w-full"
+                  />
+                </a>
+              ):(
                 <img
                   src={src}
                   alt=""

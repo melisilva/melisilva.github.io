@@ -41,9 +41,6 @@ const About = () => {
           
         </p>
 
-        
-        {/*Center this + add download*/}
-
         <a href="/resume.pdf" download={true}>
         <button className="text-white bg-gradient-to-b from-purple-500 to-purple-700 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Download my CV
