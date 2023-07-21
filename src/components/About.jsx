@@ -36,7 +36,7 @@ const About = () => {
 
 
         <p className="text-xl mt-20">
-          I'm Melissa and I'm an informatics engineer. I have worked with a lot of different technologies for all kinds of projects however I have grown an affinity for Software Enginnering and Backend Development. Currently, I'm doing my master's degree and working at <span class="italic"><a href="https://accio.pt">Accio</a> </span>in their Logistics Department.
+          I'm Melissa and I'm an informatics engineer. I have worked with a lot of different technologies for all kinds of projects however I have grown an affinity for Software Enginnering and Backend Development. Currently, I'm doing my master's degree.
           I'm also a huge nerd and geek so I like to spend my free time reading comic books and playing video games. I have some athletic tendencies that manifest themselves as my obsession with swimming in any body of water. 
           
         </p>
