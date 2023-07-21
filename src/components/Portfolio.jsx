@@ -11,6 +11,7 @@ import residu from "../assets/residu.png"
 import twitter from "../assets/twitter.png"
 import checkers from "../assets/checkers.png"
 import joelbot from "../assets/joelbot.png"
+import wokka from "../assets/wokka2.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -73,6 +74,11 @@ const Portfolio = () => {
       id:12,
       src: joelbot,
       description: "Twitter Bot made with Python."
+    },
+    {
+      id:13,
+      src: wokka,
+      description: "Time Management App, Wokka, made in the context of a startup, Wan of a Kind."
     }
 
   ];
@@ -93,32 +99,32 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, description}) => (
-            <div key={id}>
-              {id==5? <a href="https://www.youtube.com/watch?v=CA3sB9_N2KE&t=2s">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              </a>:
-              id==12? <a href="https://twitter.com/joelquotesbot">
-                 <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              </a>:
-              <img
-              src={src}
-              alt=""
-              className="rounded-md duration-200 hover:scale-105"
-            />}
-            
+          {portfolios.map(({ id, src, description }) => (
+            <div key={id} className="flex flex-col items-center">
+              {id === 5 ? (
+                <a href="https://www.youtube.com/watch?v=CA3sB9_N2KE&t=2s">
+                  <img
+                    src={src}
+                    alt=""
+                    className="rounded-md duration-200 hover:scale-105 max-h-48 max-w-full"
+                  />
+                </a>
+              ) : id === 12 ? (
+                <a href="https://twitter.com/joelquotesbot">
+                  <img
+                    src={src}
+                    alt=""
+                    className="rounded-md duration-200 hover:scale-105 max-h-48 max-w-full"
+                  />
+                </a>
+              ) : (
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md duration-200 hover:scale-105 max-h-48 max-w-full"
+                />
+              )}
 
-            
-
-              
               <div className="flex items-center justify-center">
                 {description}
               </div>
